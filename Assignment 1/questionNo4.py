@@ -1,6 +1,6 @@
-i = str(input('Enter the Unit of Value(cm/m): '))  # i=input unit
+u = str(input('Enter the Unit of Value(cm/m): '))  # u=input unit
 x = float(input('Enter the value: '))  # x=input value
-if i == 'cm':
+if u == 'cm':
     i = 0.393701*x  # i=inches
     f = i/12  # f=feets
     y = 0.0109361*x  # y=yards
@@ -8,7 +8,7 @@ if i == 'cm':
     print('Inches:', i)
     print('Feet:', f)
     print('Yards:', y)
-elif i == 'm':
+elif u == 'm':
     i = 0.393701*x*100
     f = i/12
     y = 0.0109361*x*100
